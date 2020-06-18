@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Google Fonts  -->
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/b2df4848e1.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>TEMPS - GET REGULAR WEATHER UPDATES</title>
@@ -28,7 +29,15 @@
     <div class="row">
             <!-- Left Side  -->
            <div class="col s12 m7">
-               <img class="responsive-img hero-img z-depth-1" src="/assets/Morning.png">
+               <div class="card">
+                <div class="card-image">
+                    <img class="responsive-img hero-img z-depth-1" src="/assets/Morning.png">
+                    <span class="card-title">
+                        <h1 class="font" style="font-weight: 100;"><i class="fa fa-cloud"></i>Updating...</h1>
+                        Watch The Full Weather Report Live! <i class="fa fa-youtube-play"></i> Youtube
+                    </span>
+                </div> 
+               </div>
            </div>
            <!-- Left Side End  -->
 
@@ -56,12 +65,22 @@
                 </form>   
                 <!-- End Search   -->
                 <!-- Coursel  -->
-                <div class="col s12 m12 card z-depth-0">
-                <div class="scroll card-content">
-                         <img class="responsive-img side z-depth-1 card-image" src="/assets/mor-sm.png"> 
-                         <img class="responsive-img side z-depth-1 card-image" src="/assets/eve-sm.png">
-                         <img class="responsive-img side z-depth-1 card-image" src="/assets/mor-sm.png"> 
-                </div>
+                <div class="row">
+                    <div class="col s12 m12">
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="assets/Day.png">
+                            <span class="card-title" style="background-color: rgba(0, 0, 0, 0.226); background-blend-mode: overlay; ">
+                                Watch The Full Weather Report Live! <i class="fa fa-youtube-play"></i> Youtube
+                            </span>
+                          </div>
+                          <div class="card-action">
+                            <a href="#" class="btn btn-c black">
+                                Watch Now
+                            </a>
+                          </div>
+                        </div>
+                      </div>
                 </div>
                 <!-- End Coursel  -->
 

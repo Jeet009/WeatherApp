@@ -12,7 +12,7 @@
 }
 
 .font {
-    font-family: -apple-system;
+    font-family: 'Domine', serif;
 }
 
 .input {
@@ -33,23 +33,6 @@ input:focus {
 }
 
 
-.scroll { 
-       display: flex;
-       overflow-x: auto;
-}
-
-.card {
-    border-radius: 5px;
-}
-
-.card-image {
-    margin-right: 15px;
-    border-radius: 15px;
-}
-
-.scroll::-webkit-scrollbar {    
-    display: none;
-}
 
 
 /* Placeholde  */
