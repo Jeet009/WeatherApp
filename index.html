@@ -16,35 +16,37 @@
     <!-- Navbar  -->
     <nav class="transparent z-depth-0">
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo black-text">TEMPS</a>
+          <a href="#" class="brand-logo black-text center">TEMPS &deg</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="sass.html" class="black-text"><i class="fa fa-github fa-2x"></i></a></li>
             <li><a href="badges.html" class="black-text"><i class="fa fa-youtube-play fa-2x red-text"></i></a></li>
             <li><a href="collapsible.html" class="white-text btn btn-c black">Support</a></li>
           </ul>
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
         </div>
+        <ul id="slide-out" class="sidenav">
+          <li><a href="sass.html" class="white-text btn btn-c black"><i class="fa fa-github fa-2x white-text"></i>Github</a></li>
+          <li><a href="badges.html" class="white-text btn btn-c black"><i class="fa fa-youtube-play fa-2x red-text"></i>Youtube</a></li>
+          <li><a href="collapsible.html" class="white-text btn btn-c black"><i class="fa fa-support fa-2x red-text"></i>Support</a></li>
+        </ul>
     </nav>
 
     <!-- Body  -->
     <div class="row">
             <!-- Left Side  -->
+          <div class="container">
            <div class="col s12 m7">
-               <div class="card">
-                <div class="card-image">
-                    <img class="responsive-img hero-img z-depth-1" src="/assets/Morning.png">
-                    <span class="card-title">
-                        <h1 class="font" style="font-weight: 100;"><i class="fa fa-cloud"></i>Updating...</h1>
-                    </span>
-                </div> 
-               </div>
+               <img class="responsive-img" src="/assets/bg.png" >
+               <h5 class="font">DEVELOPED BY _THEMUKHERJEE</h5>
            </div>
+          </div>
            <!-- Left Side End  -->
 
            <!-- Right Side  -->
            <div class="col s12 m5">        
            <div class="container">
                <!-- headeing  -->
-               <h3 class="font">Let's Feel <br> The Nature!!</h3>
+               <h5 class="font">Let's Feel The Nature!!</h5>
 
                <!-- search  -->
                <form>
@@ -53,9 +55,9 @@
                <div class="row input">
                <div class="col s8 m8">               
                        <i class="prefix" aria-hidden="true"></i>
-                        <input type="text" id="icon_prefix" class="file-path validate" placeholder="Type something...">     
+                        <input type="text" id="icon_prefix" class="file-path validate" placeholder="Type location...">     
                </div>
-               <div class="col s4 m4" style="margin-top: 7px;">
+               <div class="col s4 m4">
                    <a class="btn btn-c transparent z-depth-0 grey-text"><i class="fa fa-search"></i></a>
                </div>
                </div>
@@ -69,9 +71,9 @@
                         <div class="card">
                           <div class="card-image">
                             <img src="assets/Day.png">
-                            <span class="card-title" style="background-color: rgba(0, 0, 0, 0.226); background-blend-mode: overlay; ">
-                                Watch The Full Weather Report Live! <i class="fa fa-youtube-play"></i> Youtube
-                            </span>
+                          </div>
+                          <div class="card-content"> 
+                            <h3 class="font">23&degC</h3> 
                           </div>
                           <div class="card-action">
                             <a href="#" class="btn btn-c black">
@@ -94,6 +96,7 @@
     <script>
         $(document).ready(function(){
           $('.carousel').carousel();
+          $('.sidenav').sidenav();
         });
     </script>
 </body>
