@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/b2df4848e1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>TEMPS - GET REGULAR WEATHER UPDATES</title>
+</head>
+<body>
+    <!-- Navbar  -->
+    <nav class="transparent z-depth-0">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo black-text">TEMPS</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html" class="black-text"><i class="fa fa-github fa-2x"></i></a></li>
+            <li><a href="badges.html" class="black-text"><i class="fa fa-youtube-play fa-2x red-text"></i></a></li>
+            <li><a href="collapsible.html" class="white-text btn btn-c black">Support</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- Body  -->
+    <div class="row">
+            <!-- Left Side  -->
+           <div class="col s12 m7">
+               <img class="responsive-img hero-img z-depth-1" src="/assets/Morning.png">
+           </div>
+           <!-- Left Side End  -->
+
+           <!-- Right Side  -->
+           <div class="col s12 m5">        
+           <div class="container">
+               <!-- headeing  -->
+               <h3 class="font">Let's Feel <br> The Nature!!</h3>
+
+               <!-- search  -->
+               <form>
+               <div class="input-field"> 
+
+               <div class="row input">
+               <div class="col s8 m8">               
+                       <i class="prefix" aria-hidden="true"></i>
+                        <input type="text" id="icon_prefix" class="file-path validate" placeholder="Type something...">     
+               </div>
+               <div class="col s4 m4" style="margin-top: 7px;">
+                   <a class="btn btn-c transparent z-depth-0 grey-text"><i class="fa fa-search"></i></a>
+               </div>
+               </div>
+
+                </div>
+                </form>   
+                <!-- End Search   -->
+                <!-- Coursel  -->
+                <div class="col s12 m12 card z-depth-0">
+                <div class="scroll card-content">
+                         <img class="responsive-img side z-depth-1 card-image" src="/assets/mor-sm.png"> 
+                         <img class="responsive-img side z-depth-1 card-image" src="/assets/eve-sm.png">
+                         <img class="responsive-img side z-depth-1 card-image" src="/assets/mor-sm.png"> 
+                </div>
+                </div>
+                <!-- End Coursel  -->
+
+
+           </div>
+           </div>
+           <!-- Right Side End  -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('.carousel').carousel();
+        });
+    </script>
+</body>
+</html>
