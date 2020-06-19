@@ -1,65 +1,74 @@
 .hero-img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 /* Navbar  */
 .brand-logo {
-    font-family: 'Staatliches', cursive;
+  font-family: "Staatliches", cursive;
 }
 .btn-c {
-    border-radius: 7px;
-    font-weight: 500;
+  border-radius: 7px;
+  font-weight: 500;
 }
 
 .font {
-    font-family: 'Domine', serif;
+  font-family: "Domine", serif;
+}
+
+.font-c {
+  font-family: "Quicksand";
+  font-weight: 300;
+  text-transform: capitalize;
 }
 
 .input {
-    border-radius: 15px;
-    size: 50em;
-    background-color: rgb(230, 230, 230);
-    text-decoration: none;
+  border-radius: 15px;
+  size: 50em;
+  background-color: rgb(230, 230, 230);
+  text-decoration: none;
 }
 
 input {
-    border-bottom: none!important;
-    border-bottom: none!important;
+  border-bottom: none !important;
+  border-bottom: none !important;
 }
 
 input:focus {
-    border-bottom: none!important;
-    box-shadow: none!important;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
-
-
-
 
 /* Placeholde  */
 
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    padding-top: 5px;
-    color:    grey;
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  padding-top: 5px;
+  color: grey;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    padding-top: 5px;
-   color:   grey;
-   opacity:  1;
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  padding-top: 5px;
+  color: grey;
+  opacity: 1;
 }
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-    padding-top: 5px;
-   color:    grey;
-   opacity:  1;
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  padding-top: 5px;
+  color: grey;
+  opacity: 1;
 }
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    padding-top: 5px;
-   color:    grey;
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  padding-top: 5px;
+  color: grey;
 }
-::-ms-input-placeholder { /* Microsoft Edge */
-   color:    grey;
-   padding-top: 5px;
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: grey;
+  padding-top: 5px;
 }
 
-::placeholder { /* Most modern browsers support this now. */
-   color:    grey;
-   padding-top: 5px;
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: grey;
+  padding-top: 5px;
 }
