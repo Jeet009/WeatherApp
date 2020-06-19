@@ -18,8 +18,6 @@ const updateUI = (data) => {
   let imgSrc = null;
   if (weather.IsDayTime) {
     imgSrc = "assets/Day.png";
-  } else if (weather.IsDayTime && weather.WeatherText.includes("cloudy")) {
-    imgSrc = "assets/Evening.png";
   } else {
     imgSrc = "assets/Night.png";
   }
